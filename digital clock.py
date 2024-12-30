@@ -1,7 +1,6 @@
 import tkinter as tk
 from time import strftime
 
-f = open('hello.txt','r')
 def time():
     string = strftime('%H:%M:%S %p')
     label.config(text=string)
